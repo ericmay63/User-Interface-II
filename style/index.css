@@ -13,11 +13,11 @@
   figure, figcaption, footer, header, hgroup,  
   menu, nav, output, ruby, section, summary,  
   time, mark, audio, video 
-    box-sizing: border-box;
+    {box-sizing: border-box;
     padding: 0;
     margin: 0;
-    max-width: 100%;
-}
+    max-width: 100%;}
+
 html{font-size: 62.5%;
 }
 body{
@@ -27,39 +27,45 @@ body{
   margin:auto;
   color:#FFF5EE;
   font-family: times;
-  background-color:#2F4F4F;
   
 }
 header{
+  
   display:flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content:space-around;
   width:100%;
-  height:15rem;
-  border:3px solid black;
-  background:#696969;
-  margin-bottom:1px ;
-}
+  height:11rem;
+  border:5px solid black;
+  background:#696969;}
+ 
 
-links{
-  display:flex;
+
+.links{ display:flex;
   flex-direction:row;
-  justify-content: space-evenly;
+  align-content:center;
+  margin:10px 20px;
+  font-size:20px;
+  content:15px;
+ 
+  
 }
 .main{
+
   display:flex;
   flex-wrap:wrap;
   justify-content:space-around;
   align-items:center;
+  font-size: 3rem;
   padding:1rem;
-  margin:1rem;
+  margin:auto;
   border:5rem;
   background:#808080; 
 }
-.button1{
-  display:flex;
-justify-content:center;
-}
+.button{height: 20px;
+width:110px;}
+
+
 h2{text-align:center;}
 
 .aboutme{text-align:center;
@@ -72,18 +78,20 @@ span{color:blueviolet}
   flex-wrap:wrap;
   justify-content:space-evenly;
   align-content:space-around;
-  padding:1rem;
-  margin:20px;
-  border:20px;
+  padding:4rem;
+  margin:1px;
+  border:10px;
   width:100%;
+  content:10px 15px 15px 15px;
   background: #778899
   ;}
 footer{
   display:flex;
   justify-content:center;
-  background:#D3D3D3;
+  background:#696969;
   color:#708090;
+  padding:20px;
   }
-button{background:#F0E68C
-  ;
+button{background:#F0E68C;
+  color:red;
 text-align:center;}
