@@ -37,18 +37,14 @@ header{
   width:100%;
   height:11rem;
   border:5px solid black;
-  background:#696969;}
+  background:#708090;}
  
 
 
 .links{ display:flex;
   flex-direction:row;
   align-content:center;
-  margin:10px 20px;
   font-size:20px;
-  content:15px;
- 
-  
 }
 .main{
 
@@ -60,7 +56,8 @@ header{
   padding:1rem;
   margin:auto;
   border:5rem;
-  background:#808080; 
+  background:#2F4F4F
+  ; 
 }
 .button{height: 20px;
 width:110px;}
@@ -70,7 +67,7 @@ h2{text-align:center;}
 
 .aboutme{text-align:center;
 padding:10px;}
-span{color:blueviolet}
+span{color:red;}
 
 .images{
   display:flex;
@@ -82,9 +79,8 @@ span{color:blueviolet}
   margin:1px;
   border:10px;
   width:100%;
-  content:10px 15px 15px 15px;
-  background: #778899
-  ;}
+  background:grey;}
+  
 footer{
   display:flex;
   justify-content:center;
