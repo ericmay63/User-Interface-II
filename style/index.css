@@ -88,6 +88,10 @@ footer{
   color:#708090;
   padding:20px;
   }
-button{background:#F0E68C;
-  color:red;
-text-align:center;}
+button{
+  display: flex;
+
+  background:#F0E68C;
+  color:black;
+text-align:center;
+}
